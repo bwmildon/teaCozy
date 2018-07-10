@@ -1,6 +1,5 @@
 * {
   font-family: Helvetica, sans-serif;
-  font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
@@ -53,6 +52,20 @@ nav li {
 main, footer {
   position: relative;
   top: 70px;
+}
+
+.monthly {
+  height:;
+  width: 1000px;
+  display:;
+}
+
+.card {
+  
+}
+
+.contact {
+  height: 200px;
 }
 
 footer {
