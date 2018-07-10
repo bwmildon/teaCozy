@@ -1,0 +1,23 @@
+* {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.header{
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+}
+
+main, footer {
+  position: relative;
+  top: 70px;
+}
+
+footer {
+  
+}
