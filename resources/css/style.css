@@ -6,6 +6,12 @@
   text-align: center;
 }
 
+body {
+  margin: 0;
+}
+
+/* Below Is The Css Portion For The Header.*/
+
 header{
   height: 69px;
   margin: 0;
@@ -13,6 +19,8 @@ header{
   border-bottom: 1px solid seashell;
   position: fixed;
   width: 100%;
+  background-color: black;
+  z-index: 1;
   display: flex;
   align-items: center;
 }
@@ -49,19 +57,46 @@ nav li {
   margin: 0px 10px;
 }
 
+/* Here Begins The Main Content Portion; Above Is The Header Section.*/
+
 main, footer {
   position: relative;
   top: 70px;
+  justify-content: center;
+}
+
+.imgMain {
+  height: 700px;
+  width: 1200px;
+  background-image:url("../images/img-mission-background.jpg");
+  display: flex;
+  align-items: center;
+}
+
+.textMain {
+  width: 1200px;
+
 }
 
 .monthly {
-  height:;
   width: 1000px;
-  display:;
+}
+
+.monthlyText {
+  width: 100%;
+}
+
+.monthlyCards {
+  display: flex;
 }
 
 .card {
-  
+  align-items: center;
+}
+
+.card img {
+  height: 200px;
+  width: 300px;
 }
 
 .contact {
@@ -75,4 +110,3 @@ footer {
   justify-content: left;
   align-items: center;
 }
-
