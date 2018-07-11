@@ -128,11 +128,13 @@ main, footer {
   background-color: transparent;
   display: flex;
   justify-content: center;
-  align-content: flex-start;
+  align-content: space-between;
 }
 
 .locationCard {
   width: 300px;
+  margin: 20px;
+  opacity: 1;
 }
 
 .contact {
